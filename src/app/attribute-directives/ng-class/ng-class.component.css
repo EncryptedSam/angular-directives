@@ -1,0 +1,46 @@
+/* .style-1{
+    border:2px solid red;
+}
+.style-2{
+    color: green;
+}
+.style-3{
+    padding: 5px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.style-1{
+    color: red;
+    border:2px solid red;
+    padding: 5px;
+    font-weight: bold;
+}
+.style-2{
+    color: green;
+    border:2px solid green;
+    padding: 5px;
+    font-weight: bold;
+}
+.style-3{
+    color: blue;
+    border:2px solid blue;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+

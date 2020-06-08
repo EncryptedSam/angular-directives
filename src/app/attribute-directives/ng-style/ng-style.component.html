@@ -1,0 +1,17 @@
+<span [ngStyle]="textStyle">Some Text</span>
+<br><br>
+
+Options:
+
+<!-- <input type="text" [(ngModel)]="textStyle">
+{{textStyle}} -->
+<input id="color" type="checkbox" [(ngModel)]="isColorChecked">
+<label for="color">Color</label>
+<input id="border" type="checkbox" [(ngModel)]="isBorderChecked">
+<label for="border">Border</label>
+<input id="padding" type="checkbox" [(ngModel)]="isPaddingChecked">
+<label for="padding">Padding</label>
+<input id="fweight" type="checkbox" [(ngModel)]="isFontWeightChecked">
+<label for="fweight">Font-Weight</label>
+
+<!-- <span [ngStyle]="{'color':'red','border':'1px solid black'}">color</span> -->

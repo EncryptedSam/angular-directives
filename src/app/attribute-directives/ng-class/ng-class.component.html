@@ -1,0 +1,80 @@
+
+<span [ngClass]="textStyle">Some Text</span>
+
+<br><br>
+
+<input type="radio" id="s1" name="style" [(ngModel)]="currentStyle" value="styl1">
+<label for="s1">Style-1</label>
+<input type="radio" id="s2" name="style" [(ngModel)]="currentStyle" value="styl2">
+<label for="s2">Style-2</label>
+<input type="radio" id="s3" name="style" [(ngModel)]="currentStyle" value="styl3">
+<label for="s3">Style-3</label>
+
+
+
+
+<!-- passing property -->
+<!-- <span [ngClass]="styl">Priyanka</span>
+<br>
+<br>
+<br> -->
+
+<!-- passing value -->
+<!-- <span [ngClass]="'style-1 style-2 style-3'">Priyanka</span><br>
+
+<br>
+<br>
+<br> -->
+
+
+
+<!-- html attribute -->
+<!-- <span class="style-1 style-2 style-3">Priyanka</span>
+<br>
+<br>
+<br> -->
+
+
+<!-- <span [ngClass]="stylAry">Priyanka</span><br>
+<br>
+<br>
+<br> -->
+
+
+
+<!-- <span [ngClass]="stylObj">Priyanka</span><br> -->
+
+
+
+
+
+
+
+
+
+
+<!-- single quotes with in double quotes
+"''" -->
+
+
+
+
+
+
+
+
+
+
+<!-- <span [ngClass]="{'style-1':true, 'style-2':true, 'style-3':true}">Some Text</span>
+
+<span [ngClass]="'style-1 style-2 style-3'">Some Text</span> -->
+
+
+
+<!-- 
+Bindings:
+    [ngModel]           .ts ->  .html
+    (click)             .ts <-  .html
+    [(ngModel)]         .ts <-> .html
+    {{propertyName}}    .ts ->  .html 
+-->
